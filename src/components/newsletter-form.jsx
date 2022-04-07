@@ -52,6 +52,10 @@ export function NewsletterForm({ className, onSubmit, submitBtn }) {
       .then(() => {
         alert('Thank you for your interest!')
         setLoader(false)
+        window.gtag('event', 'submission', {
+          event_category: 'form',
+          event_label: 'formSubmission',
+        })
       })
       .catch((error) => {
         alert(error.message)
@@ -131,9 +135,9 @@ export function NewsletterForm({ className, onSubmit, submitBtn }) {
           <option value="Raleigh">Raleigh</option>
           <option value="New York">New York</option>
           <option value="Pennsylvania">Pennsylvania</option>
-          <option value="Raleigh">Raleigh</option>
           <option value="San Francisco">San Francisco</option>
           <option value="Seattle">Seattle</option>
+          <option value="Washington, D.C.">Washington, D.C.</option>
           <option value="Other">Other</option>
         </select>
 
