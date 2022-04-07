@@ -10,7 +10,7 @@ export default function HomePage() {
   return (
     <Layout>
       <Hero
-        title="Find your new roommate today!"
+        title="Join hundreds of other students. Find your new roommate today!"
         content="Connect with students from your university who are moving to the same city as you. Find new friends, choose roommates, and create memories!"
         illustration={HeroIllustration}
       />
