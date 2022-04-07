@@ -6,7 +6,7 @@ export function Footer() {
       <div className="mx-auto w-full max-w-6xl px-6">
         <div className="relative flex flex-wrap py-10 lg:justify-between">
           <div className="mb-6 inline-flex w-full flex-none justify-center lg:w-1/2 lg:justify-start">
-            &copy; 2022 Roomiez, all rights reserved
+            &copy; 2022 Roomies, all rights reserved
           </div>
         </div>
       </div>

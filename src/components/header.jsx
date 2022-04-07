@@ -11,7 +11,7 @@ export function Header({ title = '' }) {
           <h1 className="m-0 text-xl font-bold uppercase leading-none">
             <Link to="/" className="flex items-center no-underline">
               {/* <Logo className="mr-2" /> {title} */}
-              Roomiez
+              Roomies
             </Link>
           </h1>
         </div>
