@@ -38,7 +38,7 @@ export function NewsletterForm({ className, onSubmit, submitBtn }) {
     var min = new Date().getMinutes() //Current Minutes
 
     var submissionDate =
-      date + '/' + month + '/' + year + ' ' + hours + ':' + min
+      month + '/' + date + '/' + year + ' ' + hours + ':' + min
 
     var ref = collection(db, 'websiteLeads')
 
