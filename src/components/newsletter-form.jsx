@@ -22,7 +22,7 @@ export function NewsletterForm({ className, onSubmit, submitBtn }) {
   function handleUniversityChange(event) {
     setUniversity(event.target.value)
   }
-  function handeLocationChange(event) {
+  function handleLocationChange(event) {
     setLocation(event.target.value)
   }
 
@@ -91,28 +91,48 @@ export function NewsletterForm({ className, onSubmit, submitBtn }) {
           autoComplete="off"
           className="w-full rounded-sm border border-gray-300 bg-white px-4 py-3 text-sm text-gray-500 shadow-none"
         />
-        <input
+        <select
           required
-          placeholder="Your University"
-          id="university"
           name="university"
+          id="university"
           type="university"
           value={university}
           onChange={handleUniversityChange}
-          autoComplete="off"
           className="w-full rounded-sm border border-gray-300 bg-white px-4 py-3 text-sm text-gray-500 shadow-none"
-        />
-        <input
+        >
+          <option value="none" selected hidden>
+            Select a university
+          </option>
+          <option value="Brown">Brown</option>
+          <option value="Duke">Duke</option>
+          <option value="Harvard">Harvard</option>
+          <option value="Princeton">Princeton</option>
+          <option value="Stanford">Stanford</option>
+          <option value="Yale">Yale</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <select
           required
-          placeholder="Your Next Location"
-          id="location"
           name="location"
+          id="location"
           type="location"
           value={location}
-          onChange={handeLocationChange}
-          autoComplete="off"
+          onChange={handleLocationChange}
           className="w-full rounded-sm border border-gray-300 bg-white px-4 py-3 text-sm text-gray-500 shadow-none"
-        />
+        >
+          <option value="none" selected hidden>
+            Select a location
+          </option>
+          <option value="Boston">Boston</option>
+          <option value="San Francisco">San Francisco</option>
+          <option value="Raleigh">Raleigh</option>
+          <option value="Durham">Durham</option>
+          <option value="Pennsylvania">Pennsylvania</option>
+          <option value="Seattle">Seattle</option>
+          <option value="Other">Other</option>
+        </select>
+
         <div className="control">
           <button
             className="-mt-px inline-flex cursor-pointer justify-center whitespace-nowrap rounded-sm border-0 bg-gradient-to-r from-secondary-500 to-secondary-400 py-4 px-7 text-center font-medium leading-4 text-white no-underline shadow-lg"
