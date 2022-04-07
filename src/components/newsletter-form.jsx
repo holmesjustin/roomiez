@@ -101,7 +101,7 @@ export function NewsletterForm({ className, onSubmit, submitBtn }) {
           className="w-full rounded-sm border border-gray-300 bg-white px-4 py-3 text-sm text-gray-500 shadow-none"
         >
           <option value="none" selected hidden>
-            Select a university
+            Select a University
           </option>
           <option value="Brown">Brown</option>
           <option value="Duke">Duke</option>
@@ -122,13 +122,17 @@ export function NewsletterForm({ className, onSubmit, submitBtn }) {
           className="w-full rounded-sm border border-gray-300 bg-white px-4 py-3 text-sm text-gray-500 shadow-none"
         >
           <option value="none" selected hidden>
-            Select a location
+            Select a Location
           </option>
           <option value="Boston">Boston</option>
-          <option value="San Francisco">San Francisco</option>
+          <option value="Chicago">Chicago</option>
+          <option value="Denver">Denver</option>
+          <option value="Los Angeles">Los Angeles</option>
           <option value="Raleigh">Raleigh</option>
-          <option value="Durham">Durham</option>
+          <option value="New York">New York</option>
           <option value="Pennsylvania">Pennsylvania</option>
+          <option value="Raleigh">Raleigh</option>
+          <option value="San Francisco">San Francisco</option>
           <option value="Seattle">Seattle</option>
           <option value="Other">Other</option>
         </select>
