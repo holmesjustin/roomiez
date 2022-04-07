@@ -177,7 +177,7 @@ export function HeroIllustration() {
       >
         <img
           src={roommates}
-          style={{ marginLeft: '200px', marginTop: '150px' }}
+          style={{ marginLeft: '0px', marginTop: '150px' }}
         />
         {/* <svg
           className="ml-auto max-w-screen-sm lg:max-w-none"

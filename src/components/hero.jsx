@@ -23,12 +23,12 @@ export function Hero({ title, content, illustration: Illustration }) {
   }, [])
 
   return (
-    <section className="text-center lg:w-full lg:py-20 lg:text-left">
+    <section className="text-center lg:w-full lg:text-left">
       <div className="hero mx-auto w-full max-w-6xl px-6">
         <div className="hero-inner relative lg:flex">
           <div
             className="hero-copy bg-white pt-10 pb-16 lg:pt-16 lg:pr-20"
-            style={{ minWidth: '600px' }}
+            style={{ minWidth: '300px' }}
           >
             <div className="mx-auto w-full max-w-3xl">
               <h1
