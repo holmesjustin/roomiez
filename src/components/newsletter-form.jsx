@@ -132,6 +132,7 @@ export function NewsletterForm({ className, onSubmit, submitBtn }) {
           <option value="Chicago">Chicago</option>
           <option value="Denver">Denver</option>
           <option value="Los Angeles">Los Angeles</option>
+          <option value="Miami">Miami</option>
           <option value="Raleigh">Raleigh</option>
           <option value="New York">New York</option>
           <option value="Pennsylvania">Pennsylvania</option>
